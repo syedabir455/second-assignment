@@ -173,6 +173,7 @@ nav li {
     justify-content: space-between;
     margin-top: 100px;
 }
+
 /* .features-container:hover{
     height: 750px;
     width: 1000px;
@@ -226,4 +227,90 @@ nav li {
     width: 600px;
     height: 700px;
     padding-right: 100px;
+}
+
+/* facts section */
+.facts {
+    padding-left: 100px;
+}
+
+.facts h1 {
+    padding-bottom: 24px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+}
+
+.facts p {
+    padding-bottom: 24px;
+}
+
+.icons {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 150px;
+    /* padding-right: 50px; */
+    padding-bottom: 70px;
+    gap: 120px;
+
+}
+
+.logo {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    height: 160px;
+    width: 150px;
+    text-align: center;
+}
+
+.logo:hover {
+    border: 2px solid blue;
+}
+
+.logo img {
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+
+.logo h4 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #424242;
+}
+
+/* sponsors section */
+.sponsors-info {
+    text-align: center;
+}
+
+.sponsors-info h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+    padding-bottom: 24px;
+
+}
+
+.sponsor {
+    display: flex;
+    padding: 50px 120px 80px;
+    gap: 120px;
+}
+
+/* footer */
+.footer {
+    width: 1100px;
+    height: 50px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer:hover{
+    border: 2px solid blue;
 }
