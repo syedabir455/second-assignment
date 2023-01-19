@@ -61,7 +61,6 @@ nav li {
 /* nav end */
 /* banner */
 .banner {
-    /* margin: 0 205px; */
     text-align: center;
 }
 
@@ -243,7 +242,6 @@ nav li {
     display: flex;
     padding-top: 50px;
     padding-left: 150px;
-    /* padding-right: 50px; */
     padding-bottom: 70px;
     gap: 120px;
 
@@ -352,6 +350,10 @@ nav li {
         padding-right: 0;
         width: 390px;
         height: 300px;
+    }
+    .btn-secondary{
+        margin-top: 10px;
+        margin-left: 90px;
     }
     .facts{
         padding-left: 30px;
